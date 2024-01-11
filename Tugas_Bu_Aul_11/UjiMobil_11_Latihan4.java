@@ -15,5 +15,10 @@ public class UjiMobil_11_Latihan4 {
 
         busMini.pluspenumpang(1);
         busMini.cetak();
+
+        System.out.println("Masukkan Berat Badan: ");
+        double berat = input.nextDouble();
+        busMini.getAverage(berat);
+        // bisa disesuaikan
     }
 }
