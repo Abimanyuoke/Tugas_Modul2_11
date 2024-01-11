@@ -28,8 +28,8 @@ public void getPassword(int password){
         System.out.println("Password salah");
     }
 }
-        public void getAverage(int berapakali) {
-    int hasil = penumpang/berapakali;
+       public void getAverage(double berat) {
+    double hasil = penumpang/berat;
     System.out.println("Rata - Rata penumpang adalah: " + hasil);
 }
         
